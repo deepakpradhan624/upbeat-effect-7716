@@ -1,0 +1,25 @@
+.imgSlider{
+    width: 80%;
+    height: 300px;
+    background-image:url('https://modesens.com/banner/14398/getimg/?img=%2Fbanner%2F20221212-modesens-HolidaySale-1140x400-EN_1670831157.jpg') ;
+    background-size: 100% 100%;
+    animation: changeImage 20s linear delay infinite;
+    margin: auto;
+}   
+@keyframes changeImage { 
+    0% {
+        background-image: url('https://modesens.com/banner/14398/getimg/?img=%2Fbanner%2F20221212-modesens-HolidaySale-1140x400-EN_1670831157.jpg');
+    }
+    25% {
+        background-image: url('https://modesens.com/banner/14454/getimg/?img=%2Fbanner%2F20221214-modesens-Prada-1140x400-F-EN.jpg');
+    }
+    50%{
+        background-image: url('https://modesens.com/banner/14480/getimg/?img=%2Fbanner%2F20221208-modesens-LeaningIntoLuxe-1140x400-EN.jpg');
+    }
+    75% {
+        background-image: url('https://modesens.com/banner/14131/getimg/?img=%2Fbanner%2F20221118-modesens-Gift-1140x400_1668667138.jpg');
+    }
+    100% {
+        background-image: url('https://modesens.com/banner/14398/getimg/?img=%2Fbanner%2F20221212-modesens-HolidaySale-1140x400-EN_1670831157.jpg');
+    }
+}
