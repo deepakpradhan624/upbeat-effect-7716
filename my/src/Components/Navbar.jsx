@@ -23,7 +23,7 @@ const Navbar = () => {
         SPECIAL OFFERS
       </Link>
       <Link to={"/about"} className="navlinks">
-        ABOUT
+        WHY MODESENS
       </Link>
       <Link to={"/perkprogram"} className="navlinks">
         PERKS PROGRAM
@@ -34,9 +34,9 @@ const Navbar = () => {
       <Link to={"/login"} className="navlinks">
         Login
       </Link>
-      <Link to={"/signup"} className="navlinks">
+      {/* <Link to={"/signup"} className="navlinks">
         Signup
-      </Link>
+      </Link> */}
     </div>
   );
 };

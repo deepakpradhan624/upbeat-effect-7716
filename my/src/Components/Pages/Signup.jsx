@@ -11,7 +11,7 @@ const password=useRef()
 const navigate=useNavigate()
 
 
-const localSignup=localStorage.getItem("signup")
+// const localSignup=localStorage.getItem("signup")
 
 const handleClick=()=>{
 if(name.current.value && email.current.value && password.current.value){
