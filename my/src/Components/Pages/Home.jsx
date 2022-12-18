@@ -1,4 +1,5 @@
 import "../styles/Home.css"
+import { useNavigate } from "react-router-dom";
 
 function Home(){
     let box=document.querySelector(".newtosalecontainer");
@@ -11,7 +12,11 @@ function Home(){
         let width=box.clientWidth;
         box.scrollLeft=  box.scrollLeft + width 
     }
+    const navigate=useNavigate()
 
+    const handleProducts=()=>{
+      navigate("/login")
+    }
 
     return (
         <div>
@@ -26,7 +31,7 @@ function Home(){
 
 
          <div className="shopwomensectioncontainer">
-            <div>
+            <div onClick={handleProducts} >
                 <img className="shopwomensectionimg" style={{borderRadius:"50%"}} src="https://cdn.modesens.com/banner/20220919-W-Sale.jpg" alt="sale" />
                 <h3>SALE</h3>
             </div>
@@ -141,10 +146,6 @@ function Home(){
    </div>
    </div>
            </div>
-           
-           
-
-
 
                {/* products visual hover ends */}
 

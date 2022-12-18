@@ -38,6 +38,10 @@
 .shopwomensectioncontainer>div>h3{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.shopwomensectioncontainer>div{
+cursor: pointer;
+}
+
 
 .shopwomensectionimg{
     width: 80px;

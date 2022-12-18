@@ -8,25 +8,25 @@ const Navbar = () => {
   return (
     <div className="nav">
         
-        <img  src="https://i.ibb.co/BTnzTr2/RF.png" alt="Error" />
+        <img  src="https://cdn.modesens.com/static/img/20190228newlogo-black.svg" alt="Error" />
 
       <Link to={"/"} className="navlinks">
         HOME
       </Link>
       <Link to={"/haircare"} className="navlinks">
-       HAIRCARE
+      WOMEN
       </Link>
       <Link to={"/bestseller"} className="navlinks">
-        BEST SELLERS
+        MEN
       </Link>
       <Link to={"/specialoffer"} className="navlinks">
-        SPECIAL OFFERS
+        BEAUTY
       </Link>
       <Link to={"/about"} className="navlinks">
         WHY MODESENS
       </Link>
       <Link to={"/perkprogram"} className="navlinks">
-        PERKS PROGRAM
+        DESINERS
       </Link>
       <Link to={"/becomeconsultant"} className="navlinks">
         BECOME A CONSULTANT
@@ -38,6 +38,7 @@ const Navbar = () => {
         Signup
       </Link> */}
     </div>
+    
   );
 };
 

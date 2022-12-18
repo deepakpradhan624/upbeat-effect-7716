@@ -38,3 +38,91 @@
     background-color: aqua;
     color: black;
 }
+
+.partnersmaincontainer{
+    width: 90%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-bottom: 50px;
+}
+.partnersmultipledivcontainer{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    padding: 30px;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px 70px;
+    
+}
+.partnersmultipledivcontainer>div>img{
+    width: 120px;
+}
+.partnersmultipledivcontainer>div{
+    margin-left: 120px;
+    cursor: pointer;
+    
+}
+
+.compareandshopcontainer{
+    width: 90%;
+    height: 450px;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.compareandshopsubcontainer{
+   width: 90%;
+   height: 300px;
+   margin: auto;
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 20px;
+
+}
+.compareandshopsubcontainer>div{
+    width: 50%;
+    height: 270px;
+    /* border: 1px solid blue; */
+
+}
+.compareandshopsubcontainer>div>img{
+    width: 100%;
+}
+.compareandshopsubcontainer>div>button{
+    padding: 10px 20px;
+    border:dotted 1px;
+    background-color:red;
+    color: white;
+    margin-right: 380px;
+}
+
+.lastpartmaincontainer{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.lastpartcontainer{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    position: relative;
+}
+.imagecontainer{
+    width: 100%;
+    height: 350px;
+}
+.imagecontainer>img{
+    width: 100%;
+}
+.imagedetails{
+    position: absolute;
+    left:320px;
+    bottom: 90px;
+    /* background-color: white; */
+    color: aliceblue;
+}
+.imagedetails>a{
+    color: aliceblue;
+}

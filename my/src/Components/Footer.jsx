@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="main_footer_container">
       <div className="mini_footer_div">
         <b>Company</b>
-        <p>About Rodan+Field</p>
+        <p>About ModeSens</p>
         <p>Customers Speak</p>
         <p>In the News</p>
         <p>Terms and Conditions</p>

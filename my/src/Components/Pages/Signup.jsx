@@ -1,4 +1,4 @@
-
+import "../styles/Signup.css"
 import {useRef} from "react";
 import { useNavigate, Link } from "react-router-dom"
 
@@ -29,9 +29,10 @@ if(name.current.value && email.current.value && password.current.value){
 }
 }
     return(
-        <div>
+        <div className="maincontainer">
         
         <div className="container">
+            <h1>Sign Up</h1>
             <div className="input_space">
                 <input type="text" placeholder="name" ref={name} />
             </div>
