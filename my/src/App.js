@@ -11,7 +11,10 @@ function App() {
     <div className="App">
    {/* <Home /> */}
    <Navbar />
+   <br/>
    <AllRoutes />
+   <br/>
+    <br/>
    <Footer />
     </div>
   );

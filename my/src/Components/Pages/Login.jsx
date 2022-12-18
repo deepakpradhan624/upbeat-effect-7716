@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import "../styles/Login.css"
 
 
 function Login() {
@@ -23,8 +24,10 @@ function Login() {
   };
 
   return (
-    <>
+    <div className="maincontainer">
+
       <div className="container">
+        <h1>Login </h1>
         <div className="input_space">
           <input type="email" placeholder="email" ref={email} />
         </div>
@@ -35,7 +38,7 @@ function Login() {
         <br /><br />
         <p> <Link to="/signup" >Sign Up</Link>, If you are a new user </p>
       </div>
-    </>
+    </div>
   );
 }
 export default Login;
