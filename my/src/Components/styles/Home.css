@@ -1,0 +1,180 @@
+.imgSlider{
+    width: 80%;
+    height: 300px;
+    background-image:url('https://modesens.com/banner/14398/getimg/?img=%2Fbanner%2F20221212-modesens-HolidaySale-1140x400-EN_1670831157.jpg') ;
+    background-size: 100% 100%;
+    animation: changeImage 20s linear delay infinite;
+    margin: auto;
+}   
+@keyframes changeImage { 
+    0% {
+        background-image: url('https://modesens.com/banner/14398/getimg/?img=%2Fbanner%2F20221212-modesens-HolidaySale-1140x400-EN_1670831157.jpg');
+    }
+    25% {
+        background-image: url('https://modesens.com/banner/14454/getimg/?img=%2Fbanner%2F20221214-modesens-Prada-1140x400-F-EN.jpg');
+    }
+    50%{
+        background-image: url('https://modesens.com/banner/14480/getimg/?img=%2Fbanner%2F20221208-modesens-LeaningIntoLuxe-1140x400-EN.jpg');
+    }
+    75% {
+        background-image: url('https://modesens.com/banner/14131/getimg/?img=%2Fbanner%2F20221118-modesens-Gift-1140x400_1668667138.jpg');
+    }
+    100% {
+        background-image: url('https://modesens.com/banner/14398/getimg/?img=%2Fbanner%2F20221212-modesens-HolidaySale-1140x400-EN_1670831157.jpg');
+    }
+}
+
+.shopwomensectioncontainer
+{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+
+
+}
+
+.shopwomensectioncontainer>div>h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.shopwomensectionimg{
+    width: 80px;
+}
+
+.newtosalecontainer{
+    width: 100%;
+    height: 350px;
+    /* border: 1px red solid; */
+    margin: auto;
+    display: flex;
+    padding: 5px 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+
+
+}
+
+.newtosalesubdiv{
+    min-width: 300px;
+    max-width:300px;
+    height: 350px;
+    margin: 10px;
+    /* border: 1px black solid; */
+    cursor: pointer;
+
+}
+
+.product-carousel{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+
+.pre-btn, .next-btn{
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.next-btn{
+    right:0;
+    
+    
+}
+.next-btn p, .pre-btn p{
+    font-size: 50px;
+    background-color: rgba(206, 46, 46, 0);
+    color: rgb(10, 10, 10);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+ .newtosalesubdiv img{
+    width: 50%;
+    height: 200px;
+}
+.newtosalesubdiv>h6{
+    color: rgb(77, 76, 76);
+}
+.newtosalesubdiv>h5{
+    color: red;
+} 
+
+
+
+.specialoffercontainer{
+    width: 90%;
+    height: 400px;
+    /* border: 1px red solid; */
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+
+.specialoffersubdivs{
+    width: 30%;
+    height: 100%;
+    /* border: 1px black solid; */
+    margin: auto;
+
+}
+.specialoffersubdivs img{
+    width: 80%;
+    height: 250px;
+}
+.specialoffersubdivs>button{
+    /* border: none; */
+    padding: 7px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+}
+.specialoffersubdivs>button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.installationpartcontainer{
+    width: 95%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    background-color: rgba(120, 118, 118, 0.229);
+}
+.installationpartsubdivs{
+    width: 35%;
+    height: 500px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    background-color: white;
+
+}
+.installationpartsubdivs>img{
+    width: 100%;
+    height: 350px;
+    margin-top: 17px;
+}
+.installationpartsubdivs>button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.installationpartsubdivs>button:hover{
+    background-color: red;
+}
+

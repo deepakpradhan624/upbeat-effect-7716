@@ -1,6 +1,6 @@
 
 import {useRef} from "react";
-import {useNavigate} from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 
 function Signup(){
 
@@ -11,7 +11,7 @@ const password=useRef()
 const navigate=useNavigate()
 
 
-const localSignup=localStorage.getItem("signup")
+// const localSignup=localStorage.getItem("signup")
 
 const handleClick=()=>{
 if(name.current.value && email.current.value && password.current.value){
@@ -29,7 +29,7 @@ if(name.current.value && email.current.value && password.current.value){
 }
 }
     return(
-        <>
+        <div>
         
         <div className="container">
             <div className="input_space">
@@ -42,9 +42,11 @@ if(name.current.value && email.current.value && password.current.value){
                 <input type="password" placeholder="password" ref={password} />
             </div>
             <button onClick={handleClick} >Sign up</button>
+            <br />
+            <p> <Link to="/login" >Login</Link>, If you are already a user </p>
         </div>
  
-        </>
+        </div>
     )
  }
  export default Signup;
