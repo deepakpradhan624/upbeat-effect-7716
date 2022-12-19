@@ -32,7 +32,7 @@ const Navbar = () => {
         BECOME A CONSULTANT
       </Link>
       <Link to={"/login"} className="navlinks">
-        Login
+        LOGIN
       </Link>
       {/* <Link to={"/signup"} className="navlinks">
         Signup
