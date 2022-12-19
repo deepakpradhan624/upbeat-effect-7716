@@ -26,7 +26,7 @@ const Navbar = () => {
         WHY MODESENS
       </Link>
       <Link to={"/perkprogram"} className="navlinks">
-        DESINERS
+        DESIGNERS
       </Link>
       <Link to={"/becomeconsultant"} className="navlinks">
         BECOME A CONSULTANT
