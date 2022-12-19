@@ -2,22 +2,29 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2%;
-    width: 80%;
-    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 8%;
+    width: 90%;
     padding: 1%;
+    box-sizing: border-box;
   }
   
   .card_sub_container {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
+    padding: 3%;
+    margin-top: 1%;
+  margin-bottom: 5%;
     height: 350px;
+    box-sizing: border-box;
   }
   
   .card_sub_container div button {
     background-color: blue;
     color: white;
-    border-radius: 5px;
-    padding: 5px 10px;
+    padding: 3%;
+  width: 30%;
+  border: none;
   }
   .card_sub_container>img{
     width: 15%;
